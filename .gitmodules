@@ -1,0 +1,12 @@
+[submodule "pcb/lib/Keebio-Parts.pretty"]
+	path = pcb/lib/Keebio-Parts.pretty
+	url = https://github.com/keebio/Keebio-Parts.pretty.git
+[submodule "pcb/lib/keyboard.pretty"]
+	path = pcb/lib/keyboard.pretty
+	url = https://github.com/swanmatch/keyboard.pretty.git
+[submodule "pcb/lib/kicad_lib"]
+	path = pcb/lib/kicad_lib
+	url = https://github.com/mikamo3/kicad_lib.git
+[submodule "pcb/lib/digikey-kicad-library"]
+	path = pcb/lib/digikey-kicad-library
+	url = https://github.com/Digi-Key/digikey-kicad-library.git

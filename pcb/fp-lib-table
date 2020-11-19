@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name mikamo3)(type KiCad)(uri ${KIPRJMOD}/lib/kicad_lib/mikamo3.pretty)(options "")(descr ""))
+  (lib (name swanmatch)(type KiCad)(uri ${KIPRJMOD}/lib/keyboard.pretty)(options "")(descr ""))
+  (lib (name keebio)(type KiCad)(uri ${KIPRJMOD}/lib/Keebio-Parts.pretty)(options "")(descr ""))
+  (lib (name digikey)(type KiCad)(uri /home/mikamo/src/github.com/mikamo3/kb_manaita/pcb/lib/digikey-kicad-library/digikey-footprints.pretty)(options "")(descr ""))
+)

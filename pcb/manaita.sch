@@ -1,0 +1,1850 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "manaita"
+Date ""
+Rev "1.0"
+Comp "kamo"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:+5V #PWR05
+U 1 1 5FB3FC32
+P 2350 3950
+F 0 "#PWR05" H 2350 3800 50  0001 C CNN
+F 1 "+5V" H 2365 4123 50  0000 C CNN
+F 2 "" H 2350 3950 50  0001 C CNN
+F 3 "" H 2350 3950 50  0001 C CNN
+	1    2350 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 3950 2350 3950
+Connection ~ 2350 3950
+Wire Wire Line
+	2350 3950 2450 3950
+Wire Wire Line
+	2350 7550 2250 7550
+$Comp
+L power:GND #PWR013
+U 1 1 5FB41538
+P 2250 7550
+F 0 "#PWR013" H 2250 7300 50  0001 C CNN
+F 1 "GND" H 2255 7377 50  0000 C CNN
+F 2 "" H 2250 7550 50  0001 C CNN
+F 3 "" H 2250 7550 50  0001 C CNN
+	1    2250 7550
+	1    0    0    -1  
+$EndComp
+Connection ~ 2250 7550
+$Comp
+L power:+5V #PWR08
+U 1 1 5FB41E7B
+P 1750 5050
+F 0 "#PWR08" H 1750 4900 50  0001 C CNN
+F 1 "+5V" V 1765 5178 50  0000 L CNN
+F 2 "" H 1750 5050 50  0001 C CNN
+F 3 "" H 1750 5050 50  0001 C CNN
+	1    1750 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR01
+U 1 1 5FB423EE
+P 1100 2850
+F 0 "#PWR01" H 1100 2700 50  0001 C CNN
+F 1 "+5V" H 1115 3023 50  0000 C CNN
+F 2 "" H 1100 2850 50  0001 C CNN
+F 3 "" H 1100 2850 50  0001 C CNN
+	1    1100 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5FB426B9
+P 1100 3150
+F 0 "#PWR02" H 1100 2900 50  0001 C CNN
+F 1 "GND" H 1105 2977 50  0000 C CNN
+F 2 "" H 1100 3150 50  0001 C CNN
+F 3 "" H 1100 3150 50  0001 C CNN
+	1    1100 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5FB42F5B
+P 950 3000
+F 0 "C2" H 1042 3046 50  0000 L CNN
+F 1 "0.1u" H 1042 2955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 988 2850 50  0001 C CNN
+F 3 "~" H 950 3000 50  0001 C CNN
+	1    950  3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 5FB432D9
+P 1250 3000
+F 0 "C3" H 1342 3046 50  0000 L CNN
+F 1 "0.1u" H 1342 2955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1288 2850 50  0001 C CNN
+F 3 "~" H 1250 3000 50  0001 C CNN
+	1    1250 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 5FB43598
+P 1550 3000
+F 0 "C4" H 1642 3046 50  0000 L CNN
+F 1 "10u" H 1642 2955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1588 2850 50  0001 C CNN
+F 3 "~" H 1550 3000 50  0001 C CNN
+	1    1550 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5FB43AE3
+P 650 3000
+F 0 "C1" H 742 3046 50  0000 L CNN
+F 1 "0.1u" H 742 2955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 688 2850 50  0001 C CNN
+F 3 "~" H 650 3000 50  0001 C CNN
+	1    650  3000
+	1    0    0    -1  
+$EndComp
+Connection ~ 1100 3150
+Connection ~ 1100 2850
+$Comp
+L power:GND #PWR09
+U 1 1 5FB4DA28
+P 1500 5900
+F 0 "#PWR09" H 1500 5650 50  0001 C CNN
+F 1 "GND" H 1505 5727 50  0000 C CNN
+F 2 "" H 1500 5900 50  0001 C CNN
+F 3 "" H 1500 5900 50  0001 C CNN
+	1    1500 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C7
+U 1 1 5FB4DEAA
+P 1500 5800
+F 0 "C7" H 1592 5846 50  0000 L CNN
+F 1 "1u" H 1592 5755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1538 5650 50  0001 C CNN
+F 3 "~" H 1500 5800 50  0001 C CNN
+	1    1500 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 5550 1500 5550
+$Comp
+L Device:R_Small R2
+U 1 1 5FB50ACD
+P 1300 5250
+F 0 "R2" V 1104 5250 50  0000 C CNN
+F 1 "22" V 1195 5250 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 1230 5250 50  0001 C CNN
+F 3 "~" H 1300 5250 50  0001 C CNN
+	1    1300 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 5FB50EB4
+P 1150 5350
+F 0 "R3" V 954 5350 50  0000 C CNN
+F 1 "22" V 1045 5350 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 1080 5350 50  0001 C CNN
+F 3 "~" H 1150 5350 50  0001 C CNN
+	1    1150 5350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1250 5350 1750 5350
+$Comp
+L Device:R_Small R4
+U 1 1 5FB52ECA
+P 3050 6350
+F 0 "R4" V 2854 6350 50  0000 C CNN
+F 1 "10k" V 2945 6350 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2980 6350 50  0001 C CNN
+F 3 "~" H 3050 6350 50  0001 C CNN
+	1    3050 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 5FB5376D
+P 3350 6350
+F 0 "#PWR011" H 3350 6100 50  0001 C CNN
+F 1 "GND" H 3355 6177 50  0000 C CNN
+F 2 "" H 3350 6350 50  0001 C CNN
+F 3 "" H 3350 6350 50  0001 C CNN
+	1    3350 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 6350 3350 6350
+Wire Wire Line
+	650  3150 650  3100
+Wire Wire Line
+	650  2850 950  2850
+Wire Wire Line
+	650  3150 950  3150
+Wire Wire Line
+	1100 2850 1250 2850
+Wire Wire Line
+	1100 3150 1250 3150
+Wire Wire Line
+	950  3100 950  3150
+Connection ~ 950  3150
+Wire Wire Line
+	950  3150 1100 3150
+Wire Wire Line
+	1250 3100 1250 3150
+Connection ~ 1250 3150
+Wire Wire Line
+	1250 3150 1550 3150
+Wire Wire Line
+	1550 3100 1550 3150
+Wire Wire Line
+	650  2850 650  2900
+Wire Wire Line
+	950  2900 950  2850
+Connection ~ 950  2850
+Wire Wire Line
+	950  2850 1100 2850
+Wire Wire Line
+	1250 2900 1250 2850
+Connection ~ 1250 2850
+Wire Wire Line
+	1250 2850 1550 2850
+Wire Wire Line
+	1550 2900 1550 2850
+Wire Wire Line
+	1500 5550 1500 5700
+Wire Wire Line
+	1400 5250 1750 5250
+$Comp
+L Device:Crystal_GND24_Small Y1
+U 1 1 5FB631EB
+P 1400 4550
+F 0 "Y1" V 1354 4694 50  0000 L CNN
+F 1 "Crystal_GND24_Small" V 1445 4694 50  0000 L CNN
+F 2 "swanmatch:Crystal_SMD_3225-4pin_3.2x2.5mm" H 1400 4550 50  0001 C CNN
+F 3 "~" H 1400 4550 50  0001 C CNN
+	1    1400 4550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1750 4450 1400 4450
+Wire Wire Line
+	1400 4650 1750 4650
+$Comp
+L Device:C_Small C5
+U 1 1 5FB65BE2
+P 1000 4450
+F 0 "C5" V 771 4450 50  0000 C CNN
+F 1 "22p" V 862 4450 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1000 4450 50  0001 C CNN
+F 3 "~" H 1000 4450 50  0001 C CNN
+	1    1000 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C6
+U 1 1 5FB6600C
+P 1000 4650
+F 0 "C6" V 771 4650 50  0000 C CNN
+F 1 "22p" V 862 4650 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1000 4650 50  0001 C CNN
+F 3 "~" H 1000 4650 50  0001 C CNN
+	1    1000 4650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1400 4450 1100 4450
+Connection ~ 1400 4450
+Connection ~ 1400 4650
+$Comp
+L power:GND #PWR07
+U 1 1 5FB67EB7
+P 900 4900
+F 0 "#PWR07" H 900 4650 50  0001 C CNN
+F 1 "GND" H 905 4727 50  0000 C CNN
+F 2 "" H 900 4900 50  0001 C CNN
+F 3 "" H 900 4900 50  0001 C CNN
+	1    900  4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 4550 1300 4900
+Wire Wire Line
+	1300 4900 900  4900
+Wire Wire Line
+	1500 4550 1500 4900
+Wire Wire Line
+	1500 4900 1300 4900
+Connection ~ 1300 4900
+Wire Wire Line
+	900  4650 900  4900
+Connection ~ 900  4900
+$Comp
+L Switch:SW_Push SW41
+U 1 1 5FB6ABDB
+P 950 4250
+F 0 "SW41" H 950 4535 50  0000 C CNN
+F 1 "SW_Push" H 950 4444 50  0000 C CNN
+F 2 "swanmatch:ResetSW_1side" H 950 4450 50  0001 C CNN
+F 3 "~" H 950 4450 50  0001 C CNN
+	1    950  4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5FB6B232
+P 750 4250
+F 0 "#PWR06" H 750 4000 50  0001 C CNN
+F 1 "GND" H 755 4077 50  0000 C CNN
+F 2 "" H 750 4250 50  0001 C CNN
+F 3 "" H 750 4250 50  0001 C CNN
+	1    750  4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5FB7A329
+P 1650 4050
+F 0 "R1" H 1591 4004 50  0000 R CNN
+F 1 "10k" H 1591 4095 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 1580 4050 50  0001 C CNN
+F 3 "~" H 1650 4050 50  0001 C CNN
+	1    1650 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR04
+U 1 1 5FB7A82F
+P 1650 3950
+F 0 "#PWR04" H 1650 3800 50  0001 C CNN
+F 1 "+5V" H 1665 4123 50  0000 C CNN
+F 2 "" H 1650 3950 50  0001 C CNN
+F 3 "" H 1650 3950 50  0001 C CNN
+	1    1650 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 4150 1650 4250
+Connection ~ 1650 4250
+Wire Wire Line
+	1650 4250 1750 4250
+$Comp
+L Connector:USB_B_Micro J1
+U 1 1 5FB7DF02
+P 4450 5350
+F 0 "J1" H 4507 5817 50  0000 C CNN
+F 1 "USB_B_Mini" H 4507 5726 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 4600 5300 50  0001 C CNN
+F 3 "~" H 4600 5300 50  0001 C CNN
+	1    4450 5350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4750 5550
+Text GLabel 850  5250 0    50   Input ~ 0
+D+
+Wire Wire Line
+	850  5250 1200 5250
+Text GLabel 850  5350 0    50   Input ~ 0
+D-
+Wire Wire Line
+	1050 5350 850  5350
+Wire Wire Line
+	1100 4650 1400 4650
+Wire Wire Line
+	900  4450 900  4650
+Connection ~ 900  4650
+Text GLabel 2950 5650 2    50   Input ~ 0
+row0
+Text GLabel 2950 5850 2    50   Input ~ 0
+row2
+Text GLabel 2950 5750 2    50   Input ~ 0
+row1
+Text GLabel 2950 5950 2    50   Input ~ 0
+row3
+Text GLabel 2950 4250 2    50   Input ~ 0
+col0
+Text GLabel 3850 4050 2    50   Input ~ 0
+col1
+Text GLabel 3850 4300 2    50   Input ~ 0
+col2
+Text GLabel 3850 4550 2    50   Input ~ 0
+col3
+Text GLabel 2950 4650 2    50   Input ~ 0
+col4
+Text GLabel 2950 4750 2    50   Input ~ 0
+col5
+Text GLabel 2950 4850 2    50   Input ~ 0
+col6
+Text GLabel 2950 4950 2    50   Input ~ 0
+col7
+Text GLabel 2950 5150 2    50   Input ~ 0
+col8
+Text GLabel 2950 5250 2    50   Input ~ 0
+col9
+NoConn ~ 2950 5450
+NoConn ~ 2950 5550
+NoConn ~ 2950 6050
+NoConn ~ 2950 6150
+NoConn ~ 2950 6450
+NoConn ~ 2950 6650
+NoConn ~ 2950 6750
+NoConn ~ 2950 6850
+NoConn ~ 2950 6950
+NoConn ~ 2950 7050
+NoConn ~ 2950 7150
+$Comp
+L swanmatch:SW_PUSH SW3
+U 1 1 5FB81E5C
+P 4450 1200
+F 0 "SW3" H 4450 1455 50  0000 C CNN
+F 1 "SW_PUSH" H 4450 1364 50  0000 C CNN
+F 2 "swanmatch:MX_Hotswap_1u" H 4450 1200 50  0001 C CNN
+F 3 "" H 4450 1200 50  0000 C CNN
+	1    4450 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 5FB83E65
+P 4750 1350
+F 0 "D3" V 4796 1270 50  0000 R CNN
+F 1 "D" V 4705 1270 50  0000 R CNN
+F 2 "swanmatch:D3_TH_SMD" H 4750 1350 50  0001 C CNN
+F 3 "~" H 4750 1350 50  0001 C CNN
+	1    4750 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swanmatch:SW_PUSH SW4
+U 1 1 5FB869C9
+P 5300 1200
+F 0 "SW4" H 5300 1455 50  0000 C CNN
+F 1 "SW_PUSH" H 5300 1364 50  0000 C CNN
+F 2 "swanmatch:MX_Hotswap_1u" H 5300 1200 50  0001 C CNN
+F 3 "" H 5300 1200 50  0000 C CNN
+	1    5300 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 5FB869CF
+P 5600 1350
+F 0 "D4" V 5646 1270 50  0000 R CNN
+F 1 "D" V 5555 1270 50  0000 R CNN
+F 2 "swanmatch:D3_TH_SMD" H 5600 1350 50  0001 C CNN
+F 3 "~" H 5600 1350 50  0001 C CNN
+	1    5600 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swanmatch:SW_PUSH SW5
+U 1 1 5FB9373D
+P 6150 1200
+F 0 "SW5" H 6150 1455 50  0000 C CNN
+F 1 "SW_PUSH" H 6150 1364 50  0000 C CNN
+F 2 "swanmatch:MX_Hotswap_1u" H 6150 1200 50  0001 C CNN
+F 3 "" H 6150 1200 50  0000 C CNN
+	1    6150 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D5
+U 1 1 5FB93743
+P 6450 1350
+F 0 "D5" V 6496 1270 50  0000 R CNN
+F 1 "D" V 6405 1270 50  0000 R CNN
+F 2 "swanmatch:D3_TH_SMD" H 6450 1350 50  0001 C CNN
+F 3 "~" H 6450 1350 50  0001 C CNN
+	1    6450 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swanmatch:SW_PUSH SW6
+U 1 1 5FB93749
+P 7000 1200
+F 0 "SW6" H 7000 1455 50  0000 C CNN
+F 1 "SW_PUSH" H 7000 1364 50  0000 C CNN
+F 2 "swanmatch:MX_Hotswap_1u" H 7000 1200 50  0001 C CNN
+F 3 "" H 7000 1200 50  0000 C CNN
+	1    7000 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D6
+U 1 1 5FB9374F
+P 7300 1350
+F 0 "D6" V 7346 1270 50  0000 R CNN
+F 1 "D" V 7255 1270 50  0000 R CNN
+F 2 "swanmatch:D3_TH_SMD" H 7300 1350 50  0001 C CNN
+F 3 "~" H 7300 1350 50  0001 C CNN
+	1    7300 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swanmatch:SW_PUSH SW7
+U 1 1 5FB97A7F
+P 7850 1200
+F 0 "SW7" H 7850 1455 50  0000 C CNN
+F 1 "SW_PUSH" H 7850 1364 50  0000 C CNN
+F 2 "swanmatch:MX_Hotswap_1u" H 7850 1200 50  0001 C CNN
+F 3 "" H 7850 1200 50  0000 C CNN
+	1    7850 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D7
+U 1 1 5FB97A85
+P 8150 1350
+F 0 "D7" V 8196 1270 50  0000 R CNN
+F 1 "D" V 8105 1270 50  0000 R CNN
+F 2 "swanmatch:D3_TH_SMD" H 8150 1350 50  0001 C CNN
+F 3 "~" H 8150 1350 50  0001 C CNN
+	1    8150 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swanmatch:SW_PUSH SW8
+U 1 1 5FB97A8B
+P 8700 1200
+F 0 "SW8" H 8700 1455 50  0000 C CNN
+F 1 "SW_PUSH" H 8700 1364 50  0000 C CNN
+F 2 "swanmatch:MX_Hotswap_1u" H 8700 1200 50  0001 C CNN
+F 3 "" H 8700 1200 50  0000 C CNN
+	1    8700 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D8
+U 1 1 5FB97A91
+P 9000 1350
+F 0 "D8" V 9046 1270 50  0000 R CNN
+F 1 "D" V 8955 1270 50  0000 R CNN
+F 2 "swanmatch:D3_TH_SMD" H 9000 1350 50  0001 C CNN
+F 3 "~" H 9000 1350 50  0001 C CNN
+	1    9000 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swanmatch:SW_PUSH SW9
+U 1 1 5FB97A97
+P 9550 1200
+F 0 "SW9" H 9550 1455 50  0000 C CNN
+F 1 "SW_PUSH" H 9550 1364 50  0000 C CNN
+F 2 "swanmatch:MX_Hotswap_1u" H 9550 1200 50  0001 C CNN
+F 3 "" H 9550 1200 50  0000 C CNN
+	1    9550 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D9
+U 1 1 5FB97A9D
+P 9850 1350
+F 0 "D9" V 9896 1270 50  0000 R CNN
+F 1 "D" V 9805 1270 50  0000 R CNN
+F 2 "swanmatch:D3_TH_SMD" H 9850 1350 50  0001 C CNN
+F 3 "~" H 9850 1350 50  0001 C CNN
+	1    9850 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swanmatch:SW_PUSH SW10
+U 1 1 5FB97AA3
+P 10400 1200
+F 0 "SW10" H 10400 1455 50  0000 C CNN
+F 1 "SW_PUSH" H 10400 1364 50  0000 C CNN
+F 2 "swanmatch:MX_Hotswap_1u" H 10400 1200 50  0001 C CNN
+F 3 "" H 10400 1200 50  0000 C CNN
+	1    10400 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D10
+U 1 1 5FB97AA9
+P 10700 1350
+F 0 "D10" V 10746 1270 50  0000 R CNN
+F 1 "D" V 10655 1270 50  0000 R CNN
+F 2 "swanmatch:D3_TH_SMD" H 10700 1350 50  0001 C CNN
+F 3 "~" H 10700 1350 50  0001 C CNN
+	1    10700 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swanmatch:SW_PUSH SW1
+U 1 1 5FB9F063
+P 2750 1200
+F 0 "SW1" H 2750 1455 50  0000 C CNN
+F 1 "SW_PUSH" H 2750 1364 50  0000 C CNN
+F 2 "swanmatch:MX_Hotswap_1u" H 2750 1200 50  0001 C CNN
+F 3 "" H 2750 1200 50  0000 C CNN
+	1    2750 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 5FB9F069
+P 3050 1350
+F 0 "D1" V 3096 1270 50  0000 R CNN
+F 1 "D" V 3005 1270 50  0000 R CNN
+F 2 "swanmatch:D3_TH_SMD" H 3050 1350 50  0001 C CNN
+F 3 "~" H 3050 1350 50  0001 C CNN
+	1    3050 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swanmatch:SW_PUSH SW2
+U 1 1 5FB9F06F
+P 3600 1200
+F 0 "SW2" H 3600 1455 50  0000 C CNN
+F 1 "SW_PUSH" H 3600 1364 50  0000 C CNN
+F 2 "swanmatch:MX_Hotswap_1u" H 3600 1200 50  0001 C CNN
+F 3 "" H 3600 1200 50  0000 C CNN
+	1    3600 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 5FB9F075
+P 3900 1350
+F 0 "D2" V 3946 1270 50  0000 R CNN
+F 1 "D" V 3855 1270 50  0000 R CNN
+F 2 "swanmatch:D3_TH_SMD" H 3900 1350 50  0001 C CNN
+F 3 "~" H 3900 1350 50  0001 C CNN
+	1    3900 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swanmatch:SW_PUSH SW13
+U 1 1 5FBB7067
+P 4450 1950
+F 0 "SW13" H 4450 2205 50  0000 C CNN
+F 1 "SW_PUSH" H 4450 2114 50  0000 C CNN
+F 2 "swanmatch:MX_Hotswap_1.25u" H 4450 1950 50  0001 C CNN
+F 3 "" H 4450 1950 50  0000 C CNN
+	1    4450 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D13
+U 1 1 5FBB706D
+P 4750 2100
+F 0 "D13" V 4796 2020 50  0000 R CNN
+F 1 "D" V 4705 2020 50  0000 R CNN
+F 2 "swanmatch:D3_TH_SMD" H 4750 2100 50  0001 C CNN
+F 3 "~" H 4750 2100 50  0001 C CNN
+	1    4750 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swanmatch:SW_PUSH SW14
+U 1 1 5FBB7073
+P 5300 1950
+F 0 "SW14" H 5300 2205 50  0000 C CNN
+F 1 "SW_PUSH" H 5300 2114 50  0000 C CNN
+F 2 "swanmatch:MX_Hotswap_1u" H 5300 1950 50  0001 C CNN
+F 3 "" H 5300 1950 50  0000 C CNN
+	1    5300 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D14
+U 1 1 5FBB7079
+P 5600 2100
+F 0 "D14" V 5646 2020 50  0000 R CNN
+F 1 "D" V 5555 2020 50  0000 R CNN
+F 2 "swanmatch:D3_TH_SMD" H 5600 2100 50  0001 C CNN
+F 3 "~" H 5600 2100 50  0001 C CNN
+	1    5600 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swanmatch:SW_PUSH SW15
+U 1 1 5FBB707F
+P 6150 1950
+F 0 "SW15" H 6150 2205 50  0000 C CNN
+F 1 "SW_PUSH" H 6150 2114 50  0000 C CNN
+F 2 "swanmatch:MX_Hotswap_1u" H 6150 1950 50  0001 C CNN
+F 3 "" H 6150 1950 50  0000 C CNN
+	1    6150 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D15
+U 1 1 5FBB7085
+P 6450 2100
+F 0 "D15" V 6496 2020 50  0000 R CNN
+F 1 "D" V 6405 2020 50  0000 R CNN
+F 2 "swanmatch:D3_TH_SMD" H 6450 2100 50  0001 C CNN
+F 3 "~" H 6450 2100 50  0001 C CNN
+	1    6450 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swanmatch:SW_PUSH SW16
+U 1 1 5FBB708B
+P 7000 1950
+F 0 "SW16" H 7000 2205 50  0000 C CNN
+F 1 "SW_PUSH" H 7000 2114 50  0000 C CNN
+F 2 "swanmatch:MX_Hotswap_1u" H 7000 1950 50  0001 C CNN
+F 3 "" H 7000 1950 50  0000 C CNN
+	1    7000 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D16
+U 1 1 5FBB7091
+P 7300 2100
+F 0 "D16" V 7346 2020 50  0000 R CNN
+F 1 "D" V 7255 2020 50  0000 R CNN
+F 2 "swanmatch:D3_TH_SMD" H 7300 2100 50  0001 C CNN
+F 3 "~" H 7300 2100 50  0001 C CNN
+	1    7300 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swanmatch:SW_PUSH SW17
+U 1 1 5FBB7097
+P 7850 1950
+F 0 "SW17" H 7850 2205 50  0000 C CNN
+F 1 "SW_PUSH" H 7850 2114 50  0000 C CNN
+F 2 "swanmatch:MX_Hotswap_1u" H 7850 1950 50  0001 C CNN
+F 3 "" H 7850 1950 50  0000 C CNN
+	1    7850 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D17
+U 1 1 5FBB709D
+P 8150 2100
+F 0 "D17" V 8196 2020 50  0000 R CNN
+F 1 "D" V 8105 2020 50  0000 R CNN
+F 2 "swanmatch:D3_TH_SMD" H 8150 2100 50  0001 C CNN
+F 3 "~" H 8150 2100 50  0001 C CNN
+	1    8150 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swanmatch:SW_PUSH SW18
+U 1 1 5FBB70A3
+P 8700 1950
+F 0 "SW18" H 8700 2205 50  0000 C CNN
+F 1 "SW_PUSH" H 8700 2114 50  0000 C CNN
+F 2 "swanmatch:MX_Hotswap_1u" H 8700 1950 50  0001 C CNN
+F 3 "" H 8700 1950 50  0000 C CNN
+	1    8700 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D18
+U 1 1 5FBB70A9
+P 9000 2100
+F 0 "D18" V 9046 2020 50  0000 R CNN
+F 1 "D" V 8955 2020 50  0000 R CNN
+F 2 "swanmatch:D3_TH_SMD" H 9000 2100 50  0001 C CNN
+F 3 "~" H 9000 2100 50  0001 C CNN
+	1    9000 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swanmatch:SW_PUSH SW19
+U 1 1 5FBB70AF
+P 9550 1950
+F 0 "SW19" H 9550 2205 50  0000 C CNN
+F 1 "SW_PUSH" H 9550 2114 50  0000 C CNN
+F 2 "swanmatch:MX_Hotswap_1u" H 9550 1950 50  0001 C CNN
+F 3 "" H 9550 1950 50  0000 C CNN
+	1    9550 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D19
+U 1 1 5FBB70B5
+P 9850 2100
+F 0 "D19" V 9896 2020 50  0000 R CNN
+F 1 "D" V 9805 2020 50  0000 R CNN
+F 2 "swanmatch:D3_TH_SMD" H 9850 2100 50  0001 C CNN
+F 3 "~" H 9850 2100 50  0001 C CNN
+	1    9850 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swanmatch:SW_PUSH SW20
+U 1 1 5FBB70BB
+P 10400 1950
+F 0 "SW20" H 10400 2205 50  0000 C CNN
+F 1 "SW_PUSH" H 10400 2114 50  0000 C CNN
+F 2 "swanmatch:MX_Hotswap_1u" H 10400 1950 50  0001 C CNN
+F 3 "" H 10400 1950 50  0000 C CNN
+	1    10400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D20
+U 1 1 5FBB70C1
+P 10700 2100
+F 0 "D20" V 10746 2020 50  0000 R CNN
+F 1 "D" V 10655 2020 50  0000 R CNN
+F 2 "swanmatch:D3_TH_SMD" H 10700 2100 50  0001 C CNN
+F 3 "~" H 10700 2100 50  0001 C CNN
+	1    10700 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swanmatch:SW_PUSH SW11
+U 1 1 5FBB70C7
+P 2750 1950
+F 0 "SW11" H 2750 2205 50  0000 C CNN
+F 1 "SW_PUSH" H 2750 2114 50  0000 C CNN
+F 2 "swanmatch:MX_Hotswap_1u" H 2750 1950 50  0001 C CNN
+F 3 "" H 2750 1950 50  0000 C CNN
+	1    2750 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D11
+U 1 1 5FBB70CD
+P 3050 2100
+F 0 "D11" V 3096 2020 50  0000 R CNN
+F 1 "D" V 3005 2020 50  0000 R CNN
+F 2 "swanmatch:D3_TH_SMD" H 3050 2100 50  0001 C CNN
+F 3 "~" H 3050 2100 50  0001 C CNN
+	1    3050 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swanmatch:SW_PUSH SW12
+U 1 1 5FBB70D3
+P 3600 1950
+F 0 "SW12" H 3600 2205 50  0000 C CNN
+F 1 "SW_PUSH" H 3600 2114 50  0000 C CNN
+F 2 "swanmatch:MX_Hotswap_2u" H 3600 1950 50  0001 C CNN
+F 3 "" H 3600 1950 50  0000 C CNN
+	1    3600 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D12
+U 1 1 5FBB70D9
+P 3900 2100
+F 0 "D12" V 3946 2020 50  0000 R CNN
+F 1 "D" V 3855 2020 50  0000 R CNN
+F 2 "swanmatch:D3_TH_SMD" H 3900 2100 50  0001 C CNN
+F 3 "~" H 3900 2100 50  0001 C CNN
+	1    3900 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swanmatch:SW_PUSH SW23
+U 1 1 5FBC310D
+P 4450 2650
+F 0 "SW23" H 4450 2905 50  0000 C CNN
+F 1 "SW_PUSH" H 4450 2814 50  0000 C CNN
+F 2 "swanmatch:MX_Hotswap_1u" H 4450 2650 50  0001 C CNN
+F 3 "" H 4450 2650 50  0000 C CNN
+	1    4450 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D23
+U 1 1 5FBC3113
+P 4750 2800
+F 0 "D23" V 4796 2720 50  0000 R CNN
+F 1 "D" V 4705 2720 50  0000 R CNN
+F 2 "swanmatch:D3_TH_SMD" H 4750 2800 50  0001 C CNN
+F 3 "~" H 4750 2800 50  0001 C CNN
+	1    4750 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swanmatch:SW_PUSH SW24
+U 1 1 5FBC3119
+P 5300 2650
+F 0 "SW24" H 5300 2905 50  0000 C CNN
+F 1 "SW_PUSH" H 5300 2814 50  0000 C CNN
+F 2 "swanmatch:MX_Hotswap_1.75u" H 5300 2650 50  0001 C CNN
+F 3 "" H 5300 2650 50  0000 C CNN
+	1    5300 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D24
+U 1 1 5FBC311F
+P 5600 2800
+F 0 "D24" V 5646 2720 50  0000 R CNN
+F 1 "D" V 5555 2720 50  0000 R CNN
+F 2 "swanmatch:D3_TH_SMD" H 5600 2800 50  0001 C CNN
+F 3 "~" H 5600 2800 50  0001 C CNN
+	1    5600 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swanmatch:SW_PUSH SW25
+U 1 1 5FBC3125
+P 6150 2650
+F 0 "SW25" H 6150 2905 50  0000 C CNN
+F 1 "SW_PUSH" H 6150 2814 50  0000 C CNN
+F 2 "swanmatch:MX_Hotswap_1.75u" H 6150 2650 50  0001 C CNN
+F 3 "" H 6150 2650 50  0000 C CNN
+	1    6150 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D25
+U 1 1 5FBC312B
+P 6450 2800
+F 0 "D25" V 6496 2720 50  0000 R CNN
+F 1 "D" V 6405 2720 50  0000 R CNN
+F 2 "swanmatch:D3_TH_SMD" H 6450 2800 50  0001 C CNN
+F 3 "~" H 6450 2800 50  0001 C CNN
+	1    6450 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swanmatch:SW_PUSH SW26
+U 1 1 5FBC3131
+P 7000 2650
+F 0 "SW26" H 7000 2905 50  0000 C CNN
+F 1 "SW_PUSH" H 7000 2814 50  0000 C CNN
+F 2 "swanmatch:MX_Hotswap_1u" H 7000 2650 50  0001 C CNN
+F 3 "" H 7000 2650 50  0000 C CNN
+	1    7000 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D26
+U 1 1 5FBC3137
+P 7300 2800
+F 0 "D26" V 7346 2720 50  0000 R CNN
+F 1 "D" V 7255 2720 50  0000 R CNN
+F 2 "swanmatch:D3_TH_SMD" H 7300 2800 50  0001 C CNN
+F 3 "~" H 7300 2800 50  0001 C CNN
+	1    7300 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swanmatch:SW_PUSH SW27
+U 1 1 5FBC313D
+P 7850 2650
+F 0 "SW27" H 7850 2905 50  0000 C CNN
+F 1 "SW_PUSH" H 7850 2814 50  0000 C CNN
+F 2 "swanmatch:MX_Hotswap_1u" H 7850 2650 50  0001 C CNN
+F 3 "" H 7850 2650 50  0000 C CNN
+	1    7850 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D27
+U 1 1 5FBC3143
+P 8150 2800
+F 0 "D27" V 8196 2720 50  0000 R CNN
+F 1 "D" V 8105 2720 50  0000 R CNN
+F 2 "swanmatch:D3_TH_SMD" H 8150 2800 50  0001 C CNN
+F 3 "~" H 8150 2800 50  0001 C CNN
+	1    8150 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swanmatch:SW_PUSH SW28
+U 1 1 5FBC3149
+P 8700 2650
+F 0 "SW28" H 8700 2905 50  0000 C CNN
+F 1 "SW_PUSH" H 8700 2814 50  0000 C CNN
+F 2 "swanmatch:MX_Hotswap_1u" H 8700 2650 50  0001 C CNN
+F 3 "" H 8700 2650 50  0000 C CNN
+	1    8700 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D28
+U 1 1 5FBC314F
+P 9000 2800
+F 0 "D28" V 9046 2720 50  0000 R CNN
+F 1 "D" V 8955 2720 50  0000 R CNN
+F 2 "swanmatch:D3_TH_SMD" H 9000 2800 50  0001 C CNN
+F 3 "~" H 9000 2800 50  0001 C CNN
+	1    9000 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swanmatch:SW_PUSH SW29
+U 1 1 5FBC3155
+P 9550 2650
+F 0 "SW29" H 9550 2905 50  0000 C CNN
+F 1 "SW_PUSH" H 9550 2814 50  0000 C CNN
+F 2 "swanmatch:MX_Hotswap_1u" H 9550 2650 50  0001 C CNN
+F 3 "" H 9550 2650 50  0000 C CNN
+	1    9550 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D29
+U 1 1 5FBC315B
+P 9850 2800
+F 0 "D29" V 9896 2720 50  0000 R CNN
+F 1 "D" V 9805 2720 50  0000 R CNN
+F 2 "swanmatch:D3_TH_SMD" H 9850 2800 50  0001 C CNN
+F 3 "~" H 9850 2800 50  0001 C CNN
+	1    9850 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swanmatch:SW_PUSH SW30
+U 1 1 5FBC3161
+P 10400 2650
+F 0 "SW30" H 10400 2905 50  0000 C CNN
+F 1 "SW_PUSH" H 10400 2814 50  0000 C CNN
+F 2 "swanmatch:MX_Hotswap_1u" H 10400 2650 50  0001 C CNN
+F 3 "" H 10400 2650 50  0000 C CNN
+	1    10400 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D30
+U 1 1 5FBC3167
+P 10700 2800
+F 0 "D30" V 10746 2720 50  0000 R CNN
+F 1 "D" V 10655 2720 50  0000 R CNN
+F 2 "swanmatch:D3_TH_SMD" H 10700 2800 50  0001 C CNN
+F 3 "~" H 10700 2800 50  0001 C CNN
+	1    10700 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swanmatch:SW_PUSH SW21
+U 1 1 5FBC316D
+P 2750 2650
+F 0 "SW21" H 2750 2905 50  0000 C CNN
+F 1 "SW_PUSH" H 2750 2814 50  0000 C CNN
+F 2 "swanmatch:MX_Hotswap_1u" H 2750 2650 50  0001 C CNN
+F 3 "" H 2750 2650 50  0000 C CNN
+	1    2750 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D21
+U 1 1 5FBC3173
+P 3050 2800
+F 0 "D21" V 3096 2720 50  0000 R CNN
+F 1 "D" V 3005 2720 50  0000 R CNN
+F 2 "swanmatch:D3_TH_SMD" H 3050 2800 50  0001 C CNN
+F 3 "~" H 3050 2800 50  0001 C CNN
+	1    3050 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swanmatch:SW_PUSH SW22
+U 1 1 5FBC3179
+P 3600 2650
+F 0 "SW22" H 3600 2905 50  0000 C CNN
+F 1 "SW_PUSH" H 3600 2814 50  0000 C CNN
+F 2 "swanmatch:MX_Hotswap_1u" H 3600 2650 50  0001 C CNN
+F 3 "" H 3600 2650 50  0000 C CNN
+	1    3600 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D22
+U 1 1 5FBC317F
+P 3900 2800
+F 0 "D22" V 3946 2720 50  0000 R CNN
+F 1 "D" V 3855 2720 50  0000 R CNN
+F 2 "swanmatch:D3_TH_SMD" H 3900 2800 50  0001 C CNN
+F 3 "~" H 3900 2800 50  0001 C CNN
+	1    3900 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swanmatch:SW_PUSH SW33
+U 1 1 5FBC3185
+P 4450 3400
+F 0 "SW33" H 4450 3655 50  0000 C CNN
+F 1 "SW_PUSH" H 4450 3564 50  0000 C CNN
+F 2 "swanmatch:MX_Hotswap_1u" H 4450 3400 50  0001 C CNN
+F 3 "" H 4450 3400 50  0000 C CNN
+	1    4450 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D33
+U 1 1 5FBC318B
+P 4750 3550
+F 0 "D33" V 4796 3470 50  0000 R CNN
+F 1 "D" V 4705 3470 50  0000 R CNN
+F 2 "swanmatch:D3_TH_SMD" H 4750 3550 50  0001 C CNN
+F 3 "~" H 4750 3550 50  0001 C CNN
+	1    4750 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swanmatch:SW_PUSH SW34
+U 1 1 5FBC3191
+P 5300 3400
+F 0 "SW34" H 5300 3655 50  0000 C CNN
+F 1 "SW_PUSH" H 5300 3564 50  0000 C CNN
+F 2 "swanmatch:MX_Hotswap_1u" H 5300 3400 50  0001 C CNN
+F 3 "" H 5300 3400 50  0000 C CNN
+	1    5300 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D34
+U 1 1 5FBC3197
+P 5600 3550
+F 0 "D34" V 5646 3470 50  0000 R CNN
+F 1 "D" V 5555 3470 50  0000 R CNN
+F 2 "swanmatch:D3_TH_SMD" H 5600 3550 50  0001 C CNN
+F 3 "~" H 5600 3550 50  0001 C CNN
+	1    5600 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swanmatch:SW_PUSH SW35
+U 1 1 5FBC319D
+P 6150 3400
+F 0 "SW35" H 6150 3655 50  0000 C CNN
+F 1 "SW_PUSH" H 6150 3564 50  0000 C CNN
+F 2 "swanmatch:MX_Hotswap_1u" H 6150 3400 50  0001 C CNN
+F 3 "" H 6150 3400 50  0000 C CNN
+	1    6150 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D35
+U 1 1 5FBC31A3
+P 6450 3550
+F 0 "D35" V 6496 3470 50  0000 R CNN
+F 1 "D" V 6405 3470 50  0000 R CNN
+F 2 "swanmatch:D3_TH_SMD" H 6450 3550 50  0001 C CNN
+F 3 "~" H 6450 3550 50  0001 C CNN
+	1    6450 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swanmatch:SW_PUSH SW36
+U 1 1 5FBC31A9
+P 7000 3400
+F 0 "SW36" H 7000 3655 50  0000 C CNN
+F 1 "SW_PUSH" H 7000 3564 50  0000 C CNN
+F 2 "swanmatch:MX_Hotswap_1.25u" H 7000 3400 50  0001 C CNN
+F 3 "" H 7000 3400 50  0000 C CNN
+	1    7000 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D36
+U 1 1 5FBC31AF
+P 7300 3550
+F 0 "D36" V 7346 3470 50  0000 R CNN
+F 1 "D" V 7255 3470 50  0000 R CNN
+F 2 "swanmatch:D3_TH_SMD" H 7300 3550 50  0001 C CNN
+F 3 "~" H 7300 3550 50  0001 C CNN
+	1    7300 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swanmatch:SW_PUSH SW37
+U 1 1 5FBC31B5
+P 7850 3400
+F 0 "SW37" H 7850 3655 50  0000 C CNN
+F 1 "SW_PUSH" H 7850 3564 50  0000 C CNN
+F 2 "swanmatch:MX_Hotswap_2.25u" H 7850 3400 50  0001 C CNN
+F 3 "" H 7850 3400 50  0000 C CNN
+	1    7850 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D37
+U 1 1 5FBC31BB
+P 8150 3550
+F 0 "D37" V 8196 3470 50  0000 R CNN
+F 1 "D" V 8105 3470 50  0000 R CNN
+F 2 "swanmatch:D3_TH_SMD" H 8150 3550 50  0001 C CNN
+F 3 "~" H 8150 3550 50  0001 C CNN
+	1    8150 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swanmatch:SW_PUSH SW38
+U 1 1 5FBC31C1
+P 8700 3400
+F 0 "SW38" H 8700 3655 50  0000 C CNN
+F 1 "SW_PUSH" H 8700 3564 50  0000 C CNN
+F 2 "swanmatch:MX_Hotswap_1.25u" H 8700 3400 50  0001 C CNN
+F 3 "" H 8700 3400 50  0000 C CNN
+	1    8700 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D38
+U 1 1 5FBC31C7
+P 9000 3550
+F 0 "D38" V 9046 3470 50  0000 R CNN
+F 1 "D" V 8955 3470 50  0000 R CNN
+F 2 "swanmatch:D3_TH_SMD" H 9000 3550 50  0001 C CNN
+F 3 "~" H 9000 3550 50  0001 C CNN
+	1    9000 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swanmatch:SW_PUSH SW39
+U 1 1 5FBC31CD
+P 9550 3400
+F 0 "SW39" H 9550 3655 50  0000 C CNN
+F 1 "SW_PUSH" H 9550 3564 50  0000 C CNN
+F 2 "swanmatch:MX_Hotswap_1.25u" H 9550 3400 50  0001 C CNN
+F 3 "" H 9550 3400 50  0000 C CNN
+	1    9550 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D39
+U 1 1 5FBC31D3
+P 9850 3550
+F 0 "D39" V 9896 3470 50  0000 R CNN
+F 1 "D" V 9805 3470 50  0000 R CNN
+F 2 "swanmatch:D3_TH_SMD" H 9850 3550 50  0001 C CNN
+F 3 "~" H 9850 3550 50  0001 C CNN
+	1    9850 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swanmatch:SW_PUSH SW40
+U 1 1 5FBC31D9
+P 10400 3400
+F 0 "SW40" H 10400 3655 50  0000 C CNN
+F 1 "SW_PUSH" H 10400 3564 50  0000 C CNN
+F 2 "swanmatch:MX_Hotswap_2.75u" H 10400 3400 50  0001 C CNN
+F 3 "" H 10400 3400 50  0000 C CNN
+	1    10400 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D40
+U 1 1 5FBC31DF
+P 10700 3550
+F 0 "D40" V 10746 3470 50  0000 R CNN
+F 1 "D" V 10655 3470 50  0000 R CNN
+F 2 "swanmatch:D3_TH_SMD" H 10700 3550 50  0001 C CNN
+F 3 "~" H 10700 3550 50  0001 C CNN
+	1    10700 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swanmatch:SW_PUSH SW31
+U 1 1 5FBC31E5
+P 2750 3400
+F 0 "SW31" H 2750 3655 50  0000 C CNN
+F 1 "SW_PUSH" H 2750 3564 50  0000 C CNN
+F 2 "swanmatch:MX_Hotswap_1u" H 2750 3400 50  0001 C CNN
+F 3 "" H 2750 3400 50  0000 C CNN
+	1    2750 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D31
+U 1 1 5FBC31EB
+P 3050 3550
+F 0 "D31" V 3096 3470 50  0000 R CNN
+F 1 "D" V 3005 3470 50  0000 R CNN
+F 2 "swanmatch:D3_TH_SMD" H 3050 3550 50  0001 C CNN
+F 3 "~" H 3050 3550 50  0001 C CNN
+	1    3050 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swanmatch:SW_PUSH SW32
+U 1 1 5FBC31F1
+P 3600 3400
+F 0 "SW32" H 3600 3655 50  0000 C CNN
+F 1 "SW_PUSH" H 3600 3564 50  0000 C CNN
+F 2 "swanmatch:MX_Hotswap_1u" H 3600 3400 50  0001 C CNN
+F 3 "" H 3600 3400 50  0000 C CNN
+	1    3600 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D32
+U 1 1 5FBC31F7
+P 3900 3550
+F 0 "D32" V 3946 3470 50  0000 R CNN
+F 1 "D" V 3855 3470 50  0000 R CNN
+F 2 "swanmatch:D3_TH_SMD" H 3900 3550 50  0001 C CNN
+F 3 "~" H 3900 3550 50  0001 C CNN
+	1    3900 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2450 900  2450 1200
+Connection ~ 2450 1200
+Wire Wire Line
+	2450 1200 2450 1950
+Connection ~ 2450 1950
+Wire Wire Line
+	2450 1950 2450 2650
+Connection ~ 2450 2650
+Wire Wire Line
+	2450 2650 2450 3400
+Wire Wire Line
+	3300 3400 3300 2650
+Connection ~ 3300 1950
+Wire Wire Line
+	3300 1950 3300 1200
+Connection ~ 3300 2650
+Wire Wire Line
+	3300 2650 3300 1950
+Text GLabel 2450 900  1    50   Input ~ 0
+col0
+Text GLabel 3300 900  1    50   Input ~ 0
+col1
+Text GLabel 4150 900  1    50   Input ~ 0
+col2
+Text GLabel 5000 900  1    50   Input ~ 0
+col3
+Text GLabel 5850 900  1    50   Input ~ 0
+col4
+Text GLabel 6700 900  1    50   Input ~ 0
+col5
+Text GLabel 7550 900  1    50   Input ~ 0
+col6
+Text GLabel 8400 900  1    50   Input ~ 0
+col7
+Text GLabel 9250 900  1    50   Input ~ 0
+col8
+Text GLabel 10100 900  1    50   Input ~ 0
+col9
+Wire Wire Line
+	3300 900  3300 1200
+Connection ~ 3300 1200
+Wire Wire Line
+	4150 900  4150 1200
+Connection ~ 4150 1200
+Wire Wire Line
+	4150 1200 4150 1950
+Connection ~ 4150 1950
+Wire Wire Line
+	4150 1950 4150 2650
+Connection ~ 4150 2650
+Wire Wire Line
+	4150 2650 4150 3400
+Wire Wire Line
+	5000 900  5000 1200
+Connection ~ 5000 1200
+Wire Wire Line
+	5000 1200 5000 1950
+Connection ~ 5000 1950
+Wire Wire Line
+	5000 1950 5000 2650
+Connection ~ 5000 2650
+Wire Wire Line
+	5000 2650 5000 3400
+Wire Wire Line
+	5850 900  5850 1200
+Connection ~ 5850 1200
+Wire Wire Line
+	5850 1200 5850 1950
+Connection ~ 5850 1950
+Wire Wire Line
+	5850 1950 5850 2650
+Connection ~ 5850 2650
+Wire Wire Line
+	5850 2650 5850 3400
+Wire Wire Line
+	6700 900  6700 1200
+Connection ~ 6700 1200
+Wire Wire Line
+	6700 1200 6700 1950
+Connection ~ 6700 1950
+Wire Wire Line
+	6700 1950 6700 2650
+Connection ~ 6700 2650
+Wire Wire Line
+	6700 2650 6700 3400
+Wire Wire Line
+	7550 900  7550 1200
+Connection ~ 7550 1200
+Wire Wire Line
+	7550 1200 7550 1950
+Connection ~ 7550 1950
+Wire Wire Line
+	7550 1950 7550 2650
+Connection ~ 7550 2650
+Wire Wire Line
+	7550 2650 7550 3400
+Wire Wire Line
+	8400 900  8400 1200
+Connection ~ 8400 1200
+Wire Wire Line
+	8400 1200 8400 1950
+Connection ~ 8400 1950
+Wire Wire Line
+	8400 1950 8400 2650
+Connection ~ 8400 2650
+Wire Wire Line
+	8400 2650 8400 3400
+Wire Wire Line
+	9250 900  9250 1200
+Connection ~ 9250 1200
+Wire Wire Line
+	9250 1200 9250 1950
+Connection ~ 9250 1950
+Wire Wire Line
+	9250 1950 9250 2650
+Connection ~ 9250 2650
+Wire Wire Line
+	9250 2650 9250 3400
+Wire Wire Line
+	10100 900  10100 1200
+Connection ~ 10100 1200
+Wire Wire Line
+	10100 1200 10100 1950
+Connection ~ 10100 1950
+Wire Wire Line
+	10100 1950 10100 2650
+Connection ~ 10100 2650
+Wire Wire Line
+	10100 2650 10100 3400
+Text GLabel 2200 1500 0    50   Input ~ 0
+row0
+Text GLabel 2200 2250 0    50   Input ~ 0
+row1
+Text GLabel 2200 2950 0    50   Input ~ 0
+row2
+Text GLabel 2200 3700 0    50   Input ~ 0
+row3
+Wire Wire Line
+	10700 1500 9850 1500
+Connection ~ 3050 1500
+Wire Wire Line
+	3050 1500 2200 1500
+Connection ~ 3900 1500
+Wire Wire Line
+	3900 1500 3050 1500
+Connection ~ 4750 1500
+Wire Wire Line
+	4750 1500 3900 1500
+Connection ~ 5600 1500
+Wire Wire Line
+	5600 1500 4750 1500
+Connection ~ 6450 1500
+Wire Wire Line
+	6450 1500 5600 1500
+Connection ~ 7300 1500
+Wire Wire Line
+	7300 1500 6450 1500
+Connection ~ 8150 1500
+Wire Wire Line
+	8150 1500 7300 1500
+Connection ~ 9000 1500
+Wire Wire Line
+	9000 1500 8150 1500
+Connection ~ 9850 1500
+Wire Wire Line
+	9850 1500 9000 1500
+Wire Wire Line
+	10700 2250 9850 2250
+Connection ~ 3050 2250
+Wire Wire Line
+	3050 2250 2200 2250
+Connection ~ 3900 2250
+Wire Wire Line
+	3900 2250 3050 2250
+Connection ~ 4750 2250
+Wire Wire Line
+	4750 2250 3900 2250
+Connection ~ 5600 2250
+Wire Wire Line
+	5600 2250 4750 2250
+Connection ~ 6450 2250
+Wire Wire Line
+	6450 2250 5600 2250
+Connection ~ 7300 2250
+Wire Wire Line
+	7300 2250 6450 2250
+Connection ~ 8150 2250
+Wire Wire Line
+	8150 2250 7300 2250
+Connection ~ 9000 2250
+Wire Wire Line
+	9000 2250 8150 2250
+Connection ~ 9850 2250
+Wire Wire Line
+	9850 2250 9000 2250
+Wire Wire Line
+	10700 2950 9850 2950
+Connection ~ 3050 2950
+Wire Wire Line
+	3050 2950 2200 2950
+Connection ~ 3900 2950
+Wire Wire Line
+	3900 2950 3050 2950
+Connection ~ 4750 2950
+Wire Wire Line
+	4750 2950 3900 2950
+Connection ~ 5600 2950
+Wire Wire Line
+	5600 2950 4750 2950
+Connection ~ 6450 2950
+Wire Wire Line
+	6450 2950 5600 2950
+Connection ~ 7300 2950
+Wire Wire Line
+	7300 2950 6450 2950
+Connection ~ 8150 2950
+Wire Wire Line
+	8150 2950 7300 2950
+Connection ~ 9000 2950
+Wire Wire Line
+	9000 2950 8150 2950
+Connection ~ 9850 2950
+Wire Wire Line
+	9850 2950 9000 2950
+Wire Wire Line
+	10700 3700 9850 3700
+Connection ~ 3050 3700
+Wire Wire Line
+	3050 3700 2200 3700
+Connection ~ 3900 3700
+Wire Wire Line
+	3900 3700 3050 3700
+Connection ~ 4750 3700
+Wire Wire Line
+	4750 3700 3900 3700
+Connection ~ 5600 3700
+Wire Wire Line
+	5600 3700 4750 3700
+Connection ~ 6450 3700
+Wire Wire Line
+	6450 3700 5600 3700
+Connection ~ 7300 3700
+Wire Wire Line
+	7300 3700 6450 3700
+Connection ~ 8150 3700
+Wire Wire Line
+	8150 3700 7300 3700
+Connection ~ 9000 3700
+Wire Wire Line
+	9000 3700 8150 3700
+Connection ~ 9850 3700
+Wire Wire Line
+	9850 3700 9000 3700
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-AU U1
+U 1 1 5FB3A633
+P 2350 5750
+F 0 "U1" H 2350 3861 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 2350 3770 50  0000 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 2350 5750 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 2350 5750 50  0001 C CNN
+	1    2350 5750
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1750 4850
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5FB94B54
+P 800 3600
+F 0 "#FLG01" H 800 3675 50  0001 C CNN
+F 1 "PWR_FLAG" H 800 3773 50  0000 C CNN
+F 2 "" H 800 3600 50  0001 C CNN
+F 3 "~" H 800 3600 50  0001 C CNN
+	1    800  3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR03
+U 1 1 5FB93BB3
+P 800 3600
+F 0 "#PWR03" H 800 3450 50  0001 C CNN
+F 1 "+5V" H 815 3773 50  0000 C CNN
+F 2 "" H 800 3600 50  0001 C CNN
+F 3 "" H 800 3600 50  0001 C CNN
+	1    800  3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 USB2
+U 1 1 5FCC7385
+P 950 6400
+F 0 "USB2" H 1030 6392 50  0000 L CNN
+F 1 "Conn_01x04" H 1030 6301 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 950 6400 50  0001 C CNN
+F 3 "~" H 950 6400 50  0001 C CNN
+	1    950  6400
+	1    0    0    -1  
+$EndComp
+Text GLabel 750  6500 0    50   Input ~ 0
+D+
+Text GLabel 750  6400 0    50   Input ~ 0
+D-
+$Comp
+L power:+5V #PWR010
+U 1 1 5FCD6AFB
+P 750 6300
+F 0 "#PWR010" H 750 6150 50  0001 C CNN
+F 1 "+5V" H 765 6473 50  0000 C CNN
+F 2 "" H 750 6300 50  0001 C CNN
+F 3 "" H 750 6300 50  0001 C CNN
+	1    750  6300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 5FCD798D
+P 750 6600
+F 0 "#PWR012" H 750 6350 50  0001 C CNN
+F 1 "GND" H 755 6427 50  0000 C CNN
+F 2 "" H 750 6600 50  0001 C CNN
+F 3 "" H 750 6600 50  0001 C CNN
+	1    750  6600
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 USB1
+U 1 1 5FCDA10C
+P 5550 5450
+F 0 "USB1" H 5630 5442 50  0000 L CNN
+F 1 "Conn_01x04" H 5630 5351 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 5550 5450 50  0001 C CNN
+F 3 "~" H 5550 5450 50  0001 C CNN
+	1    5550 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 5750 4450 5750
+Wire Wire Line
+	5350 5750 5350 5650
+Connection ~ 4450 5750
+Wire Wire Line
+	4450 5750 5350 5750
+Wire Wire Line
+	4750 5450 5250 5450
+Wire Wire Line
+	4750 5350 5100 5350
+Wire Wire Line
+	5100 5350 5100 5550
+Wire Wire Line
+	5100 5550 5350 5550
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5FCF83A3
+P 1150 3600
+F 0 "#FLG0101" H 1150 3675 50  0001 C CNN
+F 1 "PWR_FLAG" H 1150 3773 50  0000 C CNN
+F 2 "" H 1150 3600 50  0001 C CNN
+F 3 "~" H 1150 3600 50  0001 C CNN
+	1    1150 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5FCF8CE0
+P 1150 3600
+F 0 "#PWR0101" H 1150 3350 50  0001 C CNN
+F 1 "GND" H 1155 3427 50  0000 C CNN
+F 2 "" H 1150 3600 50  0001 C CNN
+F 3 "" H 1150 3600 50  0001 C CNN
+	1    1150 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J7
+U 1 1 5FB79428
+P 4150 4450
+F 0 "J7" H 4230 4492 50  0000 L CNN
+F 1 "MISO" H 4230 4401 50  0000 L CNN
+F 2 "swanmatch:1pin_conn" H 4150 4450 50  0001 C CNN
+F 3 "~" H 4150 4450 50  0001 C CNN
+	1    4150 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J6
+U 1 1 5FB79976
+P 4150 4200
+F 0 "J6" H 4230 4242 50  0000 L CNN
+F 1 "MOSI" H 4230 4151 50  0000 L CNN
+F 2 "swanmatch:1pin_conn" H 4150 4200 50  0001 C CNN
+F 3 "~" H 4150 4200 50  0001 C CNN
+	1    4150 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J4
+U 1 1 5FB79F9C
+P 4150 3900
+F 0 "J4" H 4230 3942 50  0000 L CNN
+F 1 "SCK" H 4230 3851 50  0000 L CNN
+F 2 "swanmatch:1pin_conn" H 4150 3900 50  0001 C CNN
+F 3 "~" H 4150 3900 50  0001 C CNN
+	1    4150 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J8
+U 1 1 5FB7A5B5
+P 4250 6950
+F 0 "J8" H 4330 6992 50  0000 L CNN
+F 1 "VCC" H 4330 6901 50  0000 L CNN
+F 2 "swanmatch:1pin_conn" H 4250 6950 50  0001 C CNN
+F 3 "~" H 4250 6950 50  0001 C CNN
+	1    4250 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J9
+U 1 1 5FB7ABA7
+P 4250 7150
+F 0 "J9" H 4330 7192 50  0000 L CNN
+F 1 "GND" H 4330 7101 50  0000 L CNN
+F 2 "swanmatch:1pin_conn" H 4250 7150 50  0001 C CNN
+F 3 "~" H 4250 7150 50  0001 C CNN
+	1    4250 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 RST1
+U 1 1 5FB7B1F6
+P 1450 4000
+F 0 "RST1" H 1530 4042 50  0000 L CNN
+F 1 "RST" H 1530 3951 50  0000 L CNN
+F 2 "swanmatch:1pin_conn" H 1450 4000 50  0001 C CNN
+F 3 "~" H 1450 4000 50  0001 C CNN
+	1    1450 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2950 4550 3600 4550
+Wire Wire Line
+	3600 4450 3600 4550
+Connection ~ 3600 4550
+Wire Wire Line
+	3600 4550 3850 4550
+Wire Wire Line
+	3600 4450 3950 4450
+Wire Wire Line
+	2950 4450 3450 4450
+Wire Wire Line
+	3450 4450 3450 4300
+Wire Wire Line
+	3450 4300 3850 4300
+Wire Wire Line
+	3950 4200 3450 4200
+Wire Wire Line
+	3450 4200 3450 4300
+Connection ~ 3450 4300
+Wire Wire Line
+	2950 4350 3300 4350
+Wire Wire Line
+	3300 4350 3300 4050
+Wire Wire Line
+	3300 4050 3850 4050
+Wire Wire Line
+	3950 3900 3300 3900
+Wire Wire Line
+	3300 3900 3300 4050
+Connection ~ 3300 4050
+$Comp
+L power:GND #PWR015
+U 1 1 5FBF066F
+P 4050 7150
+F 0 "#PWR015" H 4050 6900 50  0001 C CNN
+F 1 "GND" H 4055 6977 50  0000 C CNN
+F 2 "" H 4050 7150 50  0001 C CNN
+F 3 "" H 4050 7150 50  0001 C CNN
+	1    4050 7150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1150 4250 1450 4250
+Wire Wire Line
+	1450 4200 1450 4250
+Connection ~ 1450 4250
+Wire Wire Line
+	1450 4250 1650 4250
+$Comp
+L power:+5V #PWR014
+U 1 1 5FC37C6E
+P 4050 6950
+F 0 "#PWR014" H 4050 6800 50  0001 C CNN
+F 1 "+5V" H 4065 7123 50  0000 C CNN
+F 2 "" H 4050 6950 50  0001 C CNN
+F 3 "" H 4050 6950 50  0001 C CNN
+	1    4050 6950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swanmatch:PRTR5V0U2X,215 D41
+U 1 1 5FC3F805
+P 5550 4700
+F 0 "D41" H 6378 4696 50  0000 L CNN
+F 1 "PRTR5V0U2X,215" H 6378 4605 50  0000 L CNN
+F 2 "digikey:TO-253-4" H 6400 5100 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/PRTR5V0U2X,215.pdf" H 6400 5000 50  0001 L CNN
+F 4 "ESD Protection Diodes 5.5V Dual SOT143B NXP PRTR5V0U2X,215 Dual Uni-Directional TVS Diode, 4-Pin SOT-143B" H 6400 4900 50  0001 L CNN "Description"
+F 5 "771-PRTR5V0U2X-T/R" H 6400 4700 50  0001 L CNN "Mouser Part Number"
+F 6 "https://www.mouser.com/Search/Refine.aspx?Keyword=771-PRTR5V0U2X-T%2FR" H 6400 4600 50  0001 L CNN "Mouser Price/Stock"
+F 7 "Nexperia" H 6400 4500 50  0001 L CNN "Manufacturer_Name"
+F 8 "PRTR5V0U2X,215" H 6400 4400 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5550 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 4100 5350 4100
+Wire Wire Line
+	6050 5400 6050 6150
+Wire Wire Line
+	6050 6150 5350 6150
+Wire Wire Line
+	5350 6150 5350 5750
+Connection ~ 5350 5750
+Wire Wire Line
+	5100 5350 5100 4700
+Wire Wire Line
+	5100 4700 5550 4700
+Connection ~ 5100 5350
+Wire Wire Line
+	5550 4800 5250 4800
+Wire Wire Line
+	5250 4800 5250 5450
+Connection ~ 5250 5450
+Wire Wire Line
+	5250 5450 5350 5450
+$Comp
+L Device:Polyfuse_Small F1
+U 1 1 5FD5B906
+P 4950 5150
+F 0 "F1" V 4745 5150 50  0000 C CNN
+F 1 "500ma" V 4836 5150 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5000 4950 50  0001 L CNN
+F 3 "~" H 4950 5150 50  0001 C CNN
+	1    4950 5150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5350 4100 5350 5150
+Wire Wire Line
+	4750 5150 4850 5150
+Wire Wire Line
+	5050 5150 5350 5150
+Connection ~ 5350 5150
+Wire Wire Line
+	5350 5150 5350 5350
+$EndSCHEMATC
