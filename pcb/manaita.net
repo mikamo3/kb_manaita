@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/mikamo/src/github.com/mikamo3/kb_manaita/pcb/manaita.sch)
-    (date "2020年11月22日 02時04分26秒")
+    (date "2020年11月22日 02時28分11秒")
     (tool "Eeschema 5.1.8")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -612,7 +612,7 @@
       (tstamp 5FECFAED))
     (comp (ref SW_R1C12_2)
       (value SW_PUSH)
-      (footprint mikamo3:CherryMX_Hotswap_1.00u_1side)
+      (footprint mikamo3:CherryMX_Hotswap_1.75u_1side)
       (libsource (lib swanmatch) (part SW_PUSH) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5FEE552A))
