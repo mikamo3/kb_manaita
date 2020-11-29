@@ -385,7 +385,7 @@ U 1 1 5FCC7385
 P 4550 5850
 F 0 "USB1" H 4630 5842 50  0000 L CNN
 F 1 "Conn_01x04" H 4630 5751 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 4550 5850 50  0001 C CNN
+F 2 "Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal" H 4550 5850 50  0001 C CNN
 F 3 "~" H 4550 5850 50  0001 C CNN
 	1    4550 5850
 	1    0    0    -1  

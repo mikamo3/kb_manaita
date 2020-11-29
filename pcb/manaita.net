@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/mikamo/src/github.com/mikamo3/kb_manaita/pcb/manaita.sch)
-    (date "2020年11月22日 02時28分11秒")
+    (date "2020年11月30日 00時28分40秒")
     (tool "Eeschema 5.1.8")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -101,7 +101,7 @@
       (tstamp 5FB7A329))
     (comp (ref USB1)
       (value Conn_01x04)
-      (footprint Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal)
+      (footprint Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal)
       (datasheet ~)
       (libsource (lib Connector_Generic) (part Conn_01x04) (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
