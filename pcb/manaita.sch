@@ -325,21 +325,21 @@ Wire Wire Line
 Wire Wire Line
 	4800 3600 4800 3800
 Connection ~ 4800 3800
-Text GLabel 6850 3700 2    50   Input ~ 0
-row0
-Text GLabel 6850 3500 2    50   Input ~ 0
-row2
-Text GLabel 6850 3600 2    50   Input ~ 0
-row1
-Text GLabel 6850 3400 2    50   Input ~ 0
-row3
 Text GLabel 6850 5600 2    50   Input ~ 0
+row0
+Text GLabel 6850 5900 2    50   Input ~ 0
+row2
+Text GLabel 6850 5800 2    50   Input ~ 0
+row1
+Text GLabel 6850 6000 2    50   Input ~ 0
+row3
+Text GLabel 7850 3850 2    50   Input ~ 0
 col0
-Text GLabel 8350 5800 2    50   Input ~ 0
+Text GLabel 7850 3600 2    50   Input ~ 0
 col1
-Text GLabel 8350 6000 2    50   Input ~ 0
+Text GLabel 7400 3500 2    50   Input ~ 0
 col2
-Text GLabel 8350 6250 2    50   Input ~ 0
+Text GLabel 6850 3400 2    50   Input ~ 0
 col3
 Text GLabel 6850 6100 2    50   Input ~ 0
 col4
@@ -438,34 +438,34 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J4
 U 1 1 5FB79428
-P 8650 6150
-F 0 "J4" H 8730 6192 50  0000 L CNN
-F 1 "MISO" H 8730 6101 50  0000 L CNN
-F 2 "swanmatch:1pin_conn" H 8650 6150 50  0001 C CNN
-F 3 "~" H 8650 6150 50  0001 C CNN
-	1    8650 6150
+P 8150 3700
+F 0 "J4" H 8230 3742 50  0000 L CNN
+F 1 "MISO" H 8230 3651 50  0000 L CNN
+F 2 "swanmatch:1pin_conn" H 8150 3700 50  0001 C CNN
+F 3 "~" H 8150 3700 50  0001 C CNN
+	1    8150 3700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J3
 U 1 1 5FB79976
-P 8650 5900
-F 0 "J3" H 8730 5942 50  0000 L CNN
-F 1 "MOSI" H 8730 5851 50  0000 L CNN
-F 2 "swanmatch:1pin_conn" H 8650 5900 50  0001 C CNN
-F 3 "~" H 8650 5900 50  0001 C CNN
-	1    8650 5900
+P 8050 3450
+F 0 "J3" H 8130 3492 50  0000 L CNN
+F 1 "MOSI" H 8130 3401 50  0000 L CNN
+F 2 "swanmatch:1pin_conn" H 8050 3450 50  0001 C CNN
+F 3 "~" H 8050 3450 50  0001 C CNN
+	1    8050 3450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J1
 U 1 1 5FB79F9C
-P 8650 5650
-F 0 "J1" H 8730 5692 50  0000 L CNN
-F 1 "SCK" H 8730 5601 50  0000 L CNN
-F 2 "swanmatch:1pin_conn" H 8650 5650 50  0001 C CNN
-F 3 "~" H 8650 5650 50  0001 C CNN
-	1    8650 5650
+P 7550 3350
+F 0 "J1" H 7630 3392 50  0000 L CNN
+F 1 "SCK" H 7630 3301 50  0000 L CNN
+F 2 "swanmatch:1pin_conn" H 7550 3350 50  0001 C CNN
+F 3 "~" H 7550 3350 50  0001 C CNN
+	1    7550 3350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -501,21 +501,6 @@ F 3 "~" H 5350 3150 50  0001 C CNN
 	1    5350 3150
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	7600 6000 7950 6000
-Wire Wire Line
-	7950 6000 8350 6000
-Wire Wire Line
-	8450 5900 7950 5900
-Wire Wire Line
-	6850 5800 7950 5800
-Wire Wire Line
-	7950 5800 8350 5800
-Wire Wire Line
-	8450 5650 7950 5650
-Wire Wire Line
-	7950 5650 7950 5800
-Connection ~ 7950 5800
 $Comp
 L power:GND #PWR06
 U 1 1 5FBF066F
@@ -1891,30 +1876,10 @@ Wire Wire Line
 Connection ~ 4500 4400
 Wire Wire Line
 	4500 4400 4900 4400
-Connection ~ 7950 6000
-Wire Wire Line
-	7950 5900 7950 6000
-Wire Wire Line
-	8350 6250 7950 6250
-Wire Wire Line
-	7950 6250 7950 6150
-Connection ~ 7950 6150
-Wire Wire Line
-	7950 6150 8450 6150
 Wire Wire Line
 	6850 5500 7150 5500
 Text GLabel 4150 4500 0    50   Input ~ 0
 D-
-Wire Wire Line
-	6850 5900 7600 5900
-Wire Wire Line
-	7600 5900 7600 6000
-Wire Wire Line
-	6850 6000 7500 6000
-Wire Wire Line
-	7500 6000 7500 6150
-Wire Wire Line
-	7500 6150 7950 6150
 $Comp
 L MCU_Microchip_ATmega:ATmega32U4-AU U1
 U 1 1 5FB3A633
@@ -1929,4 +1894,29 @@ $EndComp
 NoConn ~ 6850 5200
 NoConn ~ 6850 5300
 NoConn ~ 6850 4100
+Wire Wire Line
+	6850 3500 7350 3500
+Wire Wire Line
+	7350 3500 7350 3350
+Wire Wire Line
+	7350 3500 7400 3500
+Connection ~ 7350 3500
+Wire Wire Line
+	6850 3600 7700 3600
+Wire Wire Line
+	7850 3450 7700 3450
+Wire Wire Line
+	7700 3450 7700 3600
+Connection ~ 7700 3600
+Wire Wire Line
+	7700 3600 7850 3600
+Wire Wire Line
+	6850 3700 7700 3700
+Wire Wire Line
+	7700 3700 7700 3850
+Wire Wire Line
+	7700 3850 7850 3850
+Connection ~ 7700 3700
+Wire Wire Line
+	7700 3700 7950 3700
 $EndSCHEMATC
