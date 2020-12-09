@@ -1,5 +1,6 @@
 (sym_lib_table
   (lib (name swanmatch)(type Legacy)(uri ${KIPRJMOD}/lib/keyboard.pretty/kbd.lib)(options "")(descr ""))
   (lib (name mikamo3)(type Legacy)(uri ${KIPRJMOD}/lib/kicad_lib/mikamo3.lib)(options "")(descr ""))
-  (lib (name digikey)(type Legacy)(uri /home/mikamo/src/github.com/mikamo3/kb_manaita/pcb/lib/digikey-kicad-library/digikey-symbols/dk_TVS-Diodes.lib)(options "")(descr ""))
+  (lib (name digikey)(type Legacy)(uri ${KIPRJMOD}/lib/digikey-kicad-library/digikey-symbols/dk_TVS-Diodes.lib)(options "")(descr ""))
+  (lib (name random-keyboard-parts)(type Legacy)(uri "${KIPRJMOD}/lib/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib")(options "")(descr ""))
 )
