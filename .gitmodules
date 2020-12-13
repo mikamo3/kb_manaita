@@ -16,3 +16,6 @@
 [submodule "pcb/lib/kagizaraya-parts.pretty"]
 	path = pcb/lib/kagizaraya-parts.pretty
 	url = https://github.com/ka2hiro/kagizaraya-parts.pretty.git
+[submodule "pcb/gerber_rename"]
+	path = pcb/gerber_rename
+	url = http://github.com/mikamo3/gerber_rename.git
