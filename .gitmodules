@@ -1,21 +1,21 @@
 [submodule "pcb/lib/Keebio-Parts.pretty"]
-	path = pcb/lib/Keebio-Parts.pretty
+	path = v1/pcb/lib/Keebio-Parts.pretty
 	url = https://github.com/keebio/Keebio-Parts.pretty.git
 [submodule "pcb/lib/keyboard.pretty"]
-	path = pcb/lib/keyboard.pretty
+	path = v1/pcb/lib/keyboard.pretty
 	url = https://github.com/swanmatch/keyboard.pretty.git
 [submodule "pcb/lib/kicad_lib"]
-	path = pcb/lib/kicad_lib
+	path = v1/pcb/lib/kicad_lib
 	url = https://github.com/mikamo3/kicad_lib.git
 [submodule "pcb/lib/digikey-kicad-library"]
-	path = pcb/lib/digikey-kicad-library
+	path = v1/pcb/lib/digikey-kicad-library
 	url = https://github.com/Digi-Key/digikey-kicad-library.git
 [submodule "pcb/lib/random-keyboard-parts.pretty"]
-	path = pcb/lib/random-keyboard-parts.pretty
+	path = v1/pcb/lib/random-keyboard-parts.pretty
 	url = https://github.com/ai03-2725/random-keyboard-parts.pretty.git
 [submodule "pcb/lib/kagizaraya-parts.pretty"]
-	path = pcb/lib/kagizaraya-parts.pretty
+	path = v1/pcb/lib/kagizaraya-parts.pretty
 	url = https://github.com/ka2hiro/kagizaraya-parts.pretty.git
 [submodule "pcb/gerber_rename"]
-	path = pcb/gerber_rename
+	path = v1/pcb/gerber_rename
 	url = http://github.com/mikamo3/gerber_rename.git
