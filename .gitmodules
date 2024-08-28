@@ -19,3 +19,9 @@
 [submodule "pcb/gerber_rename"]
 	path = v1/pcb/gerber_rename
 	url = http://github.com/mikamo3/gerber_rename.git
+[submodule "v2/lib/kamo3_kicad_library"]
+	path = v2/lib/kamo3_kicad_library
+	url = https://github.com/mikamo3/kamo3_kicad_library.git
+[submodule "v2/lib/kbd"]
+	path = v2/lib/kbd
+	url = https://github.com/foostan/kbd
