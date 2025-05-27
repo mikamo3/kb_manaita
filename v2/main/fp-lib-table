@@ -3,4 +3,5 @@
   (lib (name "kamo3_footprint")(type "KiCad")(uri "/home/mikamo/src/github.com/mikamo3/kb_manaita/v2/lib/kamo3_kicad_library/kamo3_footprint.pretty")(options "")(descr ""))
   (lib (name "kbd")(type "KiCad")(uri "/home/mikamo/src/github.com/mikamo3/kb_manaita/v2/lib/kbd/kicad-footprints/kbd.pretty")(options "")(descr ""))
   (lib (name "kbd.3dshapes")(type "KiCad")(uri "/home/mikamo/src/github.com/mikamo3/kb_manaita/v2/lib/kbd/kicad-packages3D/kbd.3dshapes")(options "")(descr ""))
+  (lib (name "rp2040")(type "KiCad")(uri "/home/mikamo/src/github.com/mikamo3/kb_manaita/v2/lib/rp2040/RP2040_minimal_r2.pretty")(options "")(descr ""))
 )
